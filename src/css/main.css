@@ -655,6 +655,15 @@ select:focus {
 }
 /* End footer section*/
 
+/* extra */
+
+
+
+.caret-lg{
+font-size: 3rem;
+}
+
+
 /*Media queries*/
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
