@@ -337,6 +337,10 @@ input[type]:-moz-placeholder {
   -ms-animation: zoom 15s ease 0s normal both infinite;
   -o-animation: zoom 15s ease 0s normal both infinite;
 }
+
+.caret-lg-ico:hover {
+  animation: zoom 15s ease 0s normal both infinite;
+}
 @keyframes zoom {
   0% {
     transform: scale(1, 1);
