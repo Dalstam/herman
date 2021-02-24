@@ -216,7 +216,7 @@ h3 {
   line-height: 1.625;
 }
 .h3 {
-  font-size: 0.875em;
+  font-size: 1.2em;
   margin: 0;
   display: inline-block;
 }
@@ -233,7 +233,7 @@ h5 {
 }
 h6 {
   letter-spacing: 0.1875em;
-  font-size: 0.8125em;
+  font-size: 1.1em;
 }
 h1.medium {
   font-size: 2.25em;
@@ -263,6 +263,9 @@ blockquote {
   font-weight: 300;
   line-height: 1.5735em;
 }
+div.mb-0 {
+  font-size: 1.1em;
+}
 em {
   font-style: italic;
 }
@@ -275,14 +278,14 @@ span {
 }
 p {
   line-height: 1.85714286em;
-  font-size: 0.8125em;
+  font-size: 1.3em;
   margin-bottom: 1.875em;
 }
 p span {
   font-size: inherit;
 }
 .lead {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 .text-small {
   font-size: 0.75em;
@@ -298,6 +301,7 @@ section,
 .block-content {
   position: relative;
   width: 100%;
+  margin: 1rem 0;
 }
 .front-p {
   position: relative;
@@ -450,7 +454,7 @@ input[type="text"],
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  font-size: 0.7em;
+  font-size: 1.4em;
   font-weight: 600;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -473,6 +477,9 @@ a.link {
   margin-top: 1.5em;
   font-size: 0.8125em;
   position: relative;
+}
+a:hover {
+   color: #fff;
 }
 strong a {
   color: #ffffff;

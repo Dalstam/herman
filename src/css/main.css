@@ -617,7 +617,7 @@ select:focus {
 	position: absolute;
 	top: -2px;
 	right: 0;
-	font-size: .9375em;
+	font-size: 1.1em;
 	z-index: 2;
 	background: #fff;
 	padding-left: .125em;
